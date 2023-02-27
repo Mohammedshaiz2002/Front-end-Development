@@ -1,0 +1,62 @@
+.container{
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url("img/candy-bar@3000x2000px.jpg") no-repeat center center/cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    
+    
+}
+.Lists>ul
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Lists>ul>li
+{
+    list-style: none;
+    width:216px;
+    font-size:35px;
+}
+.Lists>ul>li>a
+{
+    text-decoration: none;
+    font-family: 'Pacifico';
+    color:black;
+    
+}
+
+.Lists>ul>li>a::before
+{
+    cursor: pointer;
+}
+
+.Lists>ul>li>a
+{
+    cursor: pointer;
+  animation-duration: 10s;
+  animation-name: shaiz;
+  animation-iteration-count:initial;
+}
+@keyframes shaiz {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  
+}
+
+.Lists>ul>li>a:hover
+{
+  text-decoration:underline;
+  border-radius: 15px;
+
+
+}
+
